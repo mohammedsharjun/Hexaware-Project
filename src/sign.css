@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Ubuntu", system-ui;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(26, 80, 62);
+    background-size: cover;
+    background-position: center;
+    
+  }
+.container{
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+  }
+
+.container1{
+width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+
+.input-group{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-group input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+
+  .input-group input::placeholder{
+    color: #fff;
+  }
+  .input-group i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+  
+  }
+
+
+.input button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+
+.input button:hover{
+    background-color: #f0f0f0;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+
+
+
+button:hover{
+    background:#e3e3e3;
+}
+
+
+.links{
+    font-size: 14.5px;
+    text-align: center;
+}
+
+.links p{
+    color: #ffffff;
+}
+
+.links button{
+    background: none;
+    box-shadow: none;
+}
+
+ #signUpButton, #signInButton{
+    width: 20%;
+    color: #ffffff;
+    background: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+#signUpButton:hover, #signInButton:hover {
+    text-decoration: underline;
+} 
+
+
+
+.rounded-button {
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  }
